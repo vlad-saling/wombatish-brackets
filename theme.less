@@ -1,6 +1,12 @@
+/* Editor UI colors */
+
+//.dark .toolbar {
+//    background-color: blue;
+//}
+
 /* Define some variables used in multiple places */
-@background: #1d1f21;
-@foreground: #ddd;
+@background: #242424;
+@foreground: #F6F3E8;
 
 /* Code Styling */
 
@@ -10,7 +16,7 @@
 }
 
 .CodeMirror-focused .CodeMirror-activeline-background {
-    background: #2f2f2f;
+    background: #FFE792;
 }
 
 &.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
@@ -27,16 +33,23 @@
     }
 }
 
-.cm-atom, .cm-string, .cm-string-2, .cm-hr {color: #d89333;}
+span {
+    display: inline;
+}
+
+.cm-atom {color: #268BD2}
+.cm-hr {color: #65D9DB;}
+.cm-string, .cm-string-2 {color:#345678}
 .cm-number, .cm-attribute, .cm-plus {color: #85a300;}
-.cm-def, .cm-property {color: #b77fdb;}
-.cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-meta, .cm-bracket {color: @foreground;}
+.cm-def, .cm-property {color: #82E699;}
+.cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-meta, .cm-bracket {color: #b77fdb;}
 .cm-comment {color: #767676;}
 .cm-error, .cm-minus {color: #dc322f;}
 .cm-header {color: #d85896;}
 .cm-link {color: #b77fdb; text-decoration: none;}
 .cm-rangeinfo {color: #6c71c4;}
-.cm-keyword, .cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {color: #6c9ef8;}
+.cm-keyword, .cm-qualifier, .cm-builtin, .cm-quote {color: #99FF00;}
+.cm-tag {color:#82CFFF}
 
 /* Extra CSS */
 
