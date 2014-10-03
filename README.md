@@ -12,4 +12,6 @@ Examples
 
 ![html](https://dl.dropboxusercontent.com/u/33040431/brackets-html.png)
 
-![css](https://dl.dropboxusercontent.com/u/33040431/brackets-scss.png)
+![css](https://dl.dropboxusercontent.com/u/33040431/brackets-css.png)
+
+![scss](https://dl.dropboxusercontent.com/u/33040431/brackets-scss.png)
