@@ -36,25 +36,30 @@ form.column-form span.input-group input[type="text"] {
     top:0px;
 }
 
-span {
+span.testing {
     display: inline;
+    font-family: "verdana";
+    background-color: url('http://google.com') left top transparent 0px 0px;
 }
 
 // test code only for highlight test - END
 
-.cm-atom {color: #65D9DB}
+.cm-atom {color: #E5786D}
 .cm-hr,.cm-number {color: #65D9DB;}
-.cm-string, .cm-string-2 {color:#CAE682} //change this
+.cm-string {color:#CAE682} 
+.cm-string-2 {color:#CAE682} 
 .cm-plus {color: red;}
 .cm-attribute {color:#99FF00}
 .cm-def, .cm-property {color: #82E699;}
-.cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-meta, .cm-bracket {color: #b77fdb;}
+.cm-variable, .cm-variable-2, .cm-variable-3, .cm-meta, .cm-bracket {color: #b77fdb;}
+.cm-operator {color:#44BCFC}
 .cm-comment {color: #767676;}
 .cm-error, .cm-minus {color: #dc322f;}
 .cm-header {color: #d85896;}
-.cm-link {color: #b77fdb; text-decoration: none;}
+.cm-link {color: #99FF00; text-decoration: none;}
 .cm-rangeinfo {color: #6c71c4;}
-.cm-keyword, .cm-qualifier, .cm-builtin, .cm-quote {color: #99FF00;}
+.cm-qualifier, .cm-builtin, .cm-quote {color: #99FF00;}
+.cm-keyword {color:#E5786D}
 .cm-tag {color:#82CFFF}
 
 /* Extra CSS */
@@ -62,7 +67,7 @@ span {
 .CodeMirror-searching {
     background-color: #d3cd69;
     &.searching-current-match {
-        background-color: #f6a644;
+        background-color: #de8312;
     }
 }
 
@@ -84,12 +89,13 @@ span {
     background: #333f48;
 }
 .CodeMirror-focused .CodeMirror-selected {
-    background: #0050a0;
+    background: #444;
 }
 
 .CodeMirror-matchingbracket, .CodeMirror-matchingtag {
     /* Ensure visibility against gray inline editor background */
-    background-color: #2e5c00;
+    background-color: #343434;
+    text-decoration: underline;
     color: @foreground !important;
 }
 
