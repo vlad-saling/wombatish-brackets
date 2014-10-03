@@ -1,9 +1,5 @@
 /* Editor UI colors */
 
-//.dark .toolbar {
-//    background-color: blue;
-//}
-
 /* Define some variables used in multiple places */
 @background: #242424;
 @foreground: #F6F3E8;
@@ -16,7 +12,7 @@
 }
 
 .CodeMirror-focused .CodeMirror-activeline-background {
-    background: #FFE792;
+    background: #444;
 }
 
 &.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
@@ -33,14 +29,24 @@
     }
 }
 
+
+// test code only for highlight test - BEGIN
+
+form.column-form span.input-group input[type="text"] {
+    top:0px;
+}
+
 span {
     display: inline;
 }
 
-.cm-atom {color: #268BD2}
-.cm-hr {color: #65D9DB;}
-.cm-string, .cm-string-2 {color:#345678}
-.cm-number, .cm-attribute, .cm-plus {color: #85a300;}
+// test code only for highlight test - END
+
+.cm-atom {color: #65D9DB}
+.cm-hr,.cm-number {color: #65D9DB;}
+.cm-string, .cm-string-2 {color:#CAE682} //change this
+.cm-plus {color: red;}
+.cm-attribute {color:#99FF00}
 .cm-def, .cm-property {color: #82E699;}
 .cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-meta, .cm-bracket {color: #b77fdb;}
 .cm-comment {color: #767676;}
