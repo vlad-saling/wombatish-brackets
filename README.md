@@ -18,4 +18,4 @@ See examples below.
 ![scss](https://dl.dropboxusercontent.com/u/33040431/brackets-scss.png)
 
 ## JS
-![scss](https://dl.dropboxusercontent.com/u/33040431/brackets-scss.png)
+![js](https://dl.dropboxusercontent.com/u/33040431/brackets-js.png)
