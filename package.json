@@ -8,11 +8,11 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git@github.com:Brackets-Theme/Son-of-Monokai.git"
+        "url": "git@github.com:vlad-saling/wombatish-brackets.git"
     },
     "theme": {
         "file": "theme.less",
         "dark": true
     },
-    "keywords": ["theme", "wombatish"]
+    "keywords": ["theme"]
 }
