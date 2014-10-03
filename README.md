@@ -10,8 +10,11 @@ Optimized mainly for HTML, CSS, SCSS, LESS, JS, JSON.
 Examples
 ----------
 
+## HTML
 ![html](https://dl.dropboxusercontent.com/u/33040431/brackets-html.png)
 
+## CSS
 ![css](https://dl.dropboxusercontent.com/u/33040431/brackets-css.png)
 
+## SCSS
 ![scss](https://dl.dropboxusercontent.com/u/33040431/brackets-scss.png)
