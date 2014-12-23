@@ -8,6 +8,12 @@ Optimized mainly for HTML, CSS, SCSS, LESS, JS, JSON.
 See examples below.
 
 
+Changelog
+---------
+
+v 1.0.1: matching bracket/tag highlight update
+ 
+
 ## HTML
 ![html](https://dl.dropboxusercontent.com/u/33040431/brackets-html.png)
 
