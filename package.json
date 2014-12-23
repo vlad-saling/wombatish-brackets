@@ -14,5 +14,8 @@
         "file": "theme.less",
         "dark": true
     },
+    "engines": {
+      "brackets": ">=0.43.0"
+    },
     "keywords": ["theme"]
 }
