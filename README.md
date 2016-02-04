@@ -15,13 +15,13 @@ v 1.0.1: matching bracket/tag highlight update
  
 
 ## HTML
-![html](https://dl.dropboxusercontent.com/u/33040431/brackets-html.png)
+![html](https://raw.githubusercontent.com/vlad-saling/blobs/master/brackets/wombatish/brackets-html.png)
 
 ## CSS
-![css](https://dl.dropboxusercontent.com/u/33040431/brackets-css.png)
+![css](https://raw.githubusercontent.com/vlad-saling/blobs/master/brackets/wombatish/brackets-css.png)
 
 ## SCSS
-![scss](https://dl.dropboxusercontent.com/u/33040431/brackets-scss.png)
+![scss](https://raw.githubusercontent.com/vlad-saling/blobs/master/brackets/wombatish/brackets-scss.png)
 
 ## JS
-![js](https://dl.dropboxusercontent.com/u/33040431/brackets-js.png)
+![js](https://raw.githubusercontent.com/vlad-saling/blobs/master/brackets/wombatish/brackets-js.png)
